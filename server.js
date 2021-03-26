@@ -23,7 +23,7 @@ mongoose.connect(url, {
 
 app.use(cors({
   credentials: true,
-  origin: 'http://localhost:3000'
+  origin: 'https://relation-builder-frontend.herokuapp.com'
 }))
 app.use('', require("./routes/apiRoutes"))
 
